@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #222; /* Darker background color */
+    color: #eee; /* Lighter text color */
+}
+
+.logo img {
+    width: 50px; /* Adjust according to your logo size */
+}
+
+.title {
+    flex-grow: 1; /* Takes up remaining space */
+    text-align: center;
+    font-size: 18px; /* Adjust font size for smaller screens */
+}
+
+.menu {
+    /* Style your menu button as needed */
+}
+.menu-options ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+.hamburger-menu {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #eee; /* Lighter text color */
+    cursor: pointer;
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .title {
+        margin-top: 10px; /* Add margin for separation */
+    }
+
+    .logo,
+    .menu {
+        text-align: center; /* Center align on smaller screens */
+    }
+
+    .menu {
+        margin-top: 10px; /* Add margin for separation */
+    }
+}
