@@ -1,0 +1,44 @@
+/* Style for the navbar */
+.navbar {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000; /* Ensure the navbar is above other content */
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style for the buttons */
+  .navbar button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar button:hover {
+    background-color: #777;
+  }
+
+  /*various media queries*/
+  @media (max-width: 460px) {
+    .navbar {
+      width: 90%; /* Adjust width to fit smaller screens */
+      max-width: 300px; /* Set a maximum width to prevent stretching */
+      padding: 5px; /* Reduce padding for smaller screens */
+    }
+  
+    .navbar button {
+      padding: 5px 10px; /* Reduce button padding for smaller screens */
+      margin-right: 5px; /* Reduce button margin for smaller screens */
+    }
+  }

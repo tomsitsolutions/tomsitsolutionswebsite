@@ -1,0 +1,67 @@
+.contact-container {
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #1a237e; /* Dark blue background color */
+    color: #ffffff; /* Lighter complimentary text color */
+  }
+  
+  .contact-container h2 {
+    text-align: center;
+
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 75%; /* Set width to 75% */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
+  .form-group textarea {
+    height: 150px;
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #555;
+  }
+
+  /*you know I gotta have the fold responsiveness */
+  @media (max-width: 280px) {
+    .contact-container {
+      max-width: 90%; /* Adjust max-width for smaller screens */
+    }
+  
+    .form-group input,
+    .form-group textarea {
+      width: 100%; /* Set input and textarea width to 100% for smaller screens */
+    }
+  
+    button[type="submit"] {
+      width: 100%; /* Set button width to 100% for smaller screens */
+      margin-right: 0; /* Remove right margin for the button */
+    }
+  }
