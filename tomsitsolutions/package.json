@@ -835,8 +835,12 @@
     "yargs-parser": "^20.2.9",
     "yocto-queue": "^0.1.0"
   },
+  "homepage": "https://tomsitsolutions.github.io/tomsitsolutionswebsite",
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
