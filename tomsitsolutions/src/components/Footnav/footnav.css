@@ -20,11 +20,17 @@
     border: none;
     padding: 10px 20px;
     margin-right: 10px;
-    border-radius: 5px;
+    border-radius: 30px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    width: 100px; 
+  height: 50px; 
   }
-  
+  /*style for navbar icons */
+  .navbar button svg {
+    width: 2em; /* Adjust the width to make the icon larger */
+    height: 2em; /* Adjust the height to maintain aspect ratio */
+  }
   .navbar button:hover {
     background-color: #777;
   }
