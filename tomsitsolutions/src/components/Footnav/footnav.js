@@ -4,15 +4,15 @@ import './footnav.css'; // Import the CSS file
 
 //main function
 
-const Footnav = () => {
+const Footnav = ({ onButtonClick }) => {
     return (
       <div className="navbar">
-        <button>About Us</button>
-        <button>Services</button>
-        <button>Contact Us</button>
+        <button onClick={() => onButtonClick(1)}>About Us</button>
+        <button onClick={() => onButtonClick(2)}>Services</button>
+        <button onClick={() => onButtonClick(3)}>Contact Us</button>
       </div>
     );
   };
-
+  
 // Export the Footnav component as default
 export default Footnav;
