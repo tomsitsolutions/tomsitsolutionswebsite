@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/tomsitsolutionswebsite/static/css/main.c66494f2.css",
-    "main.js": "/tomsitsolutionswebsite/static/js/main.3ebd1389.js",
+    "main.css": "/tomsitsolutionswebsite/static/css/main.d888fdae.css",
+    "main.js": "/tomsitsolutionswebsite/static/js/main.8168a853.js",
     "static/js/453.b37107b0.chunk.js": "/tomsitsolutionswebsite/static/js/453.b37107b0.chunk.js",
     "static/media/techbackground.jpg": "/tomsitsolutionswebsite/static/media/techbackground.7b14ec8a305f13186730.jpg",
     "static/media/logo.png": "/tomsitsolutionswebsite/static/media/logo.b9673db7d1e276382c9e.png",
     "index.html": "/tomsitsolutionswebsite/index.html",
-    "main.c66494f2.css.map": "/tomsitsolutionswebsite/static/css/main.c66494f2.css.map",
-    "main.3ebd1389.js.map": "/tomsitsolutionswebsite/static/js/main.3ebd1389.js.map",
+    "main.d888fdae.css.map": "/tomsitsolutionswebsite/static/css/main.d888fdae.css.map",
+    "main.8168a853.js.map": "/tomsitsolutionswebsite/static/js/main.8168a853.js.map",
     "453.b37107b0.chunk.js.map": "/tomsitsolutionswebsite/static/js/453.b37107b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c66494f2.css",
-    "static/js/main.3ebd1389.js"
+    "static/css/main.d888fdae.css",
+    "static/js/main.8168a853.js"
   ]
 }
