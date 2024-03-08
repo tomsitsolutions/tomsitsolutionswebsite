@@ -17,12 +17,15 @@ const App = () => {
     if (buttonNumber === 1) {
       setShowAbout(true);
       setShowContact(false);
+      setShowServices(false);
     } else if (buttonNumber === 2) {
       setShowContact(false);
       setShowAbout(false);
+      setShowServices(true);
     } else if (buttonNumber === 3) {
       setShowContact(true);
       setShowAbout(false);
+      setShowServices(false);
     }
   };
 
